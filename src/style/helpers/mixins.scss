@@ -1,0 +1,17 @@
+
+// flex
+
+@mixin flex($flex: flex, $align: center, $space-between: space-between) {
+    display: $flex;
+    align-items: $align;
+    justify-content: space-between;
+    @content;
+}
+
+@mixin position($type: left) {
+    @if ($type == left) {
+        left : 20px;
+    } @else {
+        right: 20px;
+    }
+}
