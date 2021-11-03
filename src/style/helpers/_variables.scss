@@ -1,5 +1,34 @@
 
 // colors
-$background-color: #005DEF;
+$blue: #005DEF;
 $btn-color: #fffecb;
 $white: white;
+
+// @mixin buttonStyle {
+//     background-color: blue;
+//     border-radius: 3px;
+// }
+
+// section button {
+//     @include buttonStyle();
+// }
+
+
+// footer button {
+//     @include buttonStyle();
+// }
+
+// ------------------------
+
+// %buttonStyle {
+//     background-color: blue;
+//     border-radius: 3px;
+// }
+
+// .btn1 {
+//     @extend %buttonStyle;
+// }
+
+// .btn2 {
+//     @extend %buttonStyle;
+// }

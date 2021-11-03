@@ -1,4 +1,4 @@
-
+@import '../helpers/variables';
 // flex
 
 @mixin flex($flex: flex, $align: center, $space-between: space-between) {
@@ -11,7 +11,17 @@
 @mixin position($type: left) {
     @if ($type == left) {
         left : 20px;
+        // top: 10px;
     } @else {
         right: 20px;
     }
+}
+
+@mixin backgroundColor($backgroud) {
+    background-color: $backgroud;
+}
+
+@mixin size($width, $height : $width) {
+    width: $width;
+    height: $height;
 }

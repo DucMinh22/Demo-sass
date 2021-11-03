@@ -2,15 +2,14 @@
 @import '../../style/helpers/mixins.scss';
 
 .tr__home-page {
-    background-color: $background-color;
+    @include backgroundColor($blue);
     height: 100vh;
-    z-index: -1;
     padding: 20px;
     &--logo {
         color: $white;
         position: absolute;
+        top: 0;
         @include position(left);
-        top: 0
     }
     &--title {
         @include flex(flex, center);
@@ -18,8 +17,9 @@
         padding: 40px 20px;
     }
     &--card {
-        background-color: $white;
+        @include backgroundColor($white);
         border-radius: 3px;
         padding:  15px;
+        @include size(300px)
     }
 }
