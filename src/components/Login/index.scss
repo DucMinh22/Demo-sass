@@ -1,0 +1,51 @@
+.wraper {
+    .login {
+        text-align: center;
+        margin-top: 50px;
+        .btn-login-fb {
+            background-color: #1877f2;
+            color: #fff;
+            padding: 15px 0;
+            border-radius: 3px;
+            border: none;
+            width: 155px;
+            margin-right: 20px;
+            cursor: pointer;
+            i {
+                margin-right: 13px;
+            }
+        }
+        .btn-login-gg {
+            background-color: #dd4b39;
+            color: #fff;
+            padding: 15px 0;
+            border-radius: 3px;
+            border: none;
+            width: 155px;
+            cursor: pointer;
+            i {
+                margin-right: 13px;
+            }
+        }
+        .btn-logout {
+            padding: 15px 0;
+            border-radius: 3px;
+            border: none;
+            width: 155px;
+            cursor: pointer; 
+            margin-right: 20px;
+        }
+    }
+    .display-info {
+        margin: 70px 0;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-weight: 600;
+        img {
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+    }
+}
